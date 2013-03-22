@@ -97,6 +97,7 @@ textarea {
 	vertical-align: text-top;
 }
 
+
 /* =Horizontal Rule
 -------------------------------------------------------------- */
 hr {
@@ -1132,7 +1133,7 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 
 h1 {
-    font-size: 2.625em; /* = 42px */
+    font-size: 26px;
     margin-bottom: .5em;
     margin-top: .5em;
 }
@@ -1713,7 +1714,7 @@ form div {
 	font-weight: 400;
 	line-height: 23px;
 	margin: 0;
-	padding: 0 0 20px 0;
+	padding: 0 0 10px 0;
 	text-align: left;
 }
 
@@ -3293,4 +3294,23 @@ dl dd{
 }
 #widgets{
 	float: right;
+}
+textarea, input[type=text], input[type=password], input[type=email], area{
+	background: #212121;
+	border: 1px solid #555;
+	border-radius: 10px; 
+	color: #fff;
+	font-family: verdana;
+	font-size: 14px; 
+	height: 50px;
+	line-height: 50px;
+	box-shadow: none;
+}
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, area:focus{
+	border: 1px solid #888; 
+}
+textarea, area{
+	height: 100px;
+	line-height: 20px; 
+	resize: none;
 }
