@@ -2476,6 +2476,7 @@ background-image: -webkit-gradient(
 #respond label {
 	display: inline-block;
 	padding-bottom: 5px; 
+	color: #a9a9a9;
 }
 #respond  h3{
 	color: #q;
