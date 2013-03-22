@@ -1709,8 +1709,8 @@ form div {
 .widget-title, 
 .widget-title-home h3 {
 	display: block;
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 16px;
+	font-weight: 400;
 	line-height: 23px;
 	margin: 0;
 	padding: 0 0 20px 0;
@@ -2405,6 +2405,7 @@ form div {
 }
 
 .comment-author .fn {
+	color: #fff;
 }
 
 .comment-author .says {
@@ -3258,6 +3259,9 @@ dl dd{
 .single-post p{
 	font-size: 14px; 
 	font-family: verdana;
+	-webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
 }
 
 .page-id-41 input[type=text], .page-id-41 textarea{
