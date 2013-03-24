@@ -512,14 +512,18 @@ a.button:hover,
 input[type='reset']:hover, 
 input[type='button']:hover, 
 input[type='submit']:hover {
-    
-	color: #333; 
-	background: -webkit-gradient(
-		linear, left top, left bottom, 
-		from(#3b3b3b),
-		to(#878787));
+	color: #f0f0f0; 
 }
-
+#searchform .field{
+	float: left;
+}
+#searchform #searchsubmit{
+	width: auto;
+	padding: 0 5px; 
+	float: left;
+	height: 40px;
+	margin-left: 4px;
+}
 button:active, 
 a.button:active,
 input[type='reset']:active, 
@@ -1681,7 +1685,7 @@ border: 0;
 .widget-title, 
 .widget-title-home h3 {
 	display: block;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 400;
 	line-height: 23px;
 	margin: 0;
@@ -2340,7 +2344,7 @@ border: 0;
 .commentlist li {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	background-color: #444;
+	background-color: #242424;
 	border-radius: 4px;
 	margin: 0 0 10px;
 	border: 1px solid #222;
