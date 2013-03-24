@@ -75,7 +75,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
                
         <div id="logo">
             <a href="<?php echo home_url('/'); ?>">
-                <img src="<?php bloginfo('url');?>/blog/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
+                <img src="<?php bloginfo('url');?>/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
             </a>
         </div><!-- end of #logo -->
         <!--<div class="right">
