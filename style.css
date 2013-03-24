@@ -522,6 +522,7 @@ input[type='submit']:hover {
 	padding: 0 5px; 
 	float: left;
 	height: 40px;
+	line-height: 40px;
 	margin-left: 4px;
 }
 button:active, 
