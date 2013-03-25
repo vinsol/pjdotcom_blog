@@ -1265,6 +1265,7 @@ form div {
 	overflow: hidden;
 }
 
+
 #footer {
 	clear: both;
 	margin: 30px auto 0;
@@ -2829,8 +2830,11 @@ BDO[DIR="rtl"] {
 	
     .grid, 
 	.grid-right {
-	    float: none;
+	    float: none !important;
     }
+    #header .sb-holder{
+		display: none !important;
+	}
 	#footer-wrapper {
 		width: 100% !important;
 		text-align: center;
