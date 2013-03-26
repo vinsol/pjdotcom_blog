@@ -3383,7 +3383,7 @@ textarea, area{
     line-height: 20px;
     padding: 0 10px;
 }
-#footer ul .first a {
+#footer ul li:first-child a {
     padding-left: 0;
 }
 #footer ul li:last-child {
