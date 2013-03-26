@@ -75,7 +75,7 @@ if ( defined( 'WPSEO_VERSION' ) ) {
                
         <div id="logo">
             <a href="<?php echo home_url('/'); ?>">
-                <img src="<?php bloginfo('url');?>/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
+                <img src="<?php bloginfo('url');?>/blog/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
             </a>
         </div><!-- end of #logo -->
         <!--<div class="right">
@@ -114,6 +114,24 @@ if ( defined( 'WPSEO_VERSION' ) ) {
 				?>
             <?php } ?>
  
+<div id="navigation">
+    <ul>
+        <li class="home"><a href="http://www.poojajuneja.com/">Home</a></li>
+        <li><a href="http://www.poojajuneja.com/pages/about_us">About Us</a></li>
+        <li><a href="http://www.poojajuneja.com/collections">Collection</a></li>
+        <li><a href="http://www.poojajuneja.com/exhibition">Exhibition</a></li>
+        <li><a href="http://www.poojajuneja.com/awards">Awards</a></li>
+        <li><a href="http://www.poojajuneja.com/pages/contact_us">Contact Us</a>
+        <li><a class="active" href="http://www.poojajuneja.com/blog">Blog</a>    
+    </ul>           
+  <!--<div class="search">
+        <label for="Subscribe_to_our_Newsletter_">Subscribe to our newsletter!</label>
+    <button type="submit" name="button" class="submit subscribe-submit">Subscribe</button>
+  </div>-->
+</div>
+
+
+
     </div><!-- end of #header -->
     <?php responsive_header_end(); // after header hook ?>
     

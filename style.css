@@ -1233,7 +1233,7 @@ form div {
 -------------------------------------------------------------- */
 #container {
 	margin: 0 auto;
-	max-width: 960px;
+	max-width: 980px;
 	padding: 0px 25px;
 }
 
@@ -1277,7 +1277,6 @@ form div {
 	margin: 0;
 	padding: 0;
 	font-size: 16px; 
-	width: 940px; 
 	margin: 0 auto;
 }
 
@@ -1546,7 +1545,9 @@ form div {
 #widgets {
 	margin-top: 0;
 }
-
+#widgets .widget_categories, #widgets .widget_meta{
+	display: none;
+}
 
 #widgets a {
 	display: inline-block;
@@ -3304,4 +3305,100 @@ textarea, area{
     width: 350px;
 	line-height: 20px; 
 	resize: none;
+}
+
+
+#navigation {
+    margin: 20px 0 0;
+    overflow: hidden;
+}
+#navigation ul {
+    padding: 0;
+    margin: 0;
+}
+#navigation ul li {
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#navigation ul li:last-child a{
+	border: 0; 
+}
+#navigation ul li a {
+    border-right: 1px solid #fff;
+    color: #C1C1C1;
+    float: left;
+    font-size: 18px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 17px;
+    text-decoration: none;
+}
+#navigation ul li a:hover {
+    color: #FFFFFF;
+}
+#navigation ul li a.active {
+    color: #FFFFFF;
+}
+#navigation ul li.home a {
+    border-left: 0 none;
+}
+#navigation ul li .border {
+    border-left: 1px solid #FFFFFF;
+    float: left;
+    height: 35px;
+    width: 1px;
+}
+
+#footer {
+    color: #515151;
+    overflow: hidden;
+    padding: 0 0 20px;
+    max-width: 980px; 
+    margin: 0 auto;
+    border: 0;
+}
+#footer ul {
+    float: left;
+    padding: 0;
+    margin: 0;
+}
+#footer ul{
+    overflow: hidden;
+}
+#footer ul li {
+    border-right: 1px solid #515151;
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#footer ul a {
+    color: #515151;
+    float: left;
+    font-size: 18px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 10px;
+}
+#footer ul .first a {
+    padding-left: 0;
+}
+#footer ul li:last-child {
+    border-right: 0 none;
+}
+#footer ul .active{
+	color: #fff; 
+}
+#footer ul p {
+    margin-top: 10px;
+}
+#footer .right {
+    float: right;
+    font-size: 16px;
+}
+#footer .right a {
+    color: #999999;
 }
