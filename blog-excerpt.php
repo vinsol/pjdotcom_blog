@@ -63,7 +63,8 @@ if ( !defined('ABSPATH')) exit;
                     <?php the_post_thumbnail(); ?>
                         </a>
                     <?php endif; ?>
-                    <?php the_excerpt(); ?>
+                    <?#php the_excerpt(); ?>
+                    <?php the_content(); ?>
                     <?php wp_link_pages(array('before' => '<div class="pagination">' . __('Pages:', 'responsive'), 'after' => '</div>')); ?>
                 </div><!-- end of .post-entry -->
                 
