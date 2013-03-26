@@ -75,17 +75,16 @@ if ( defined( 'WPSEO_VERSION' ) ) {
                
         <div id="logo">
             <a href="<?php echo home_url('/'); ?>">
-                <img src="<?php bloginfo('url');?>/blog/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
+                <img src="<?php bloginfo('url');?>/wp-content/uploads/2013/03/pj_logo.png"  alt="<?php bloginfo('name'); ?>" width="40%" />
             </a>
         </div><!-- end of #logo -->
-        <!--<div class="right">
-            <p class="dj">Designer Jewellery</p>
+        <div class="right">
             <div class="share">
                 <span>Share: </span>
                 <a target="_new" class="tw" href="https://twitter.com/#!/pj_jw">Twitter</a>
                 <a target="_new" class="fb" href="https://www.facebook.com/pages/Pooja-Juneja-Designer-Jewellery/342391549113894">Facebook</a>
             </div>
-        </div>    -->
+        </div>   
     <?php endif; // header image was removed ?>
 
     <?php if ( !get_header_image() ) : ?>
