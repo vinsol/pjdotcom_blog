@@ -3296,7 +3296,7 @@ textarea, input[type=text], input[type=password], input[type=email], area{
     font-size: 14px;
     height: 40px;
     line-height: 40px;
-    width: 350px;
+    width: 100%;
 }
 textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, area:focus{
 	border: 1px solid #555; 
@@ -3306,7 +3306,7 @@ textarea, area{
     color: #FFFFFF;
     height: 160px;
     padding: 0 5px;
-    width: 350px;
+    width: 100%;
 	line-height: 20px; 
 	resize: none;
 }
