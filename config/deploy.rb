@@ -6,6 +6,7 @@
 set :application, 'blog_pjdotcom'
 set :repo_url, 'git@github.com:vinsol/pjdotcom_blog.git'
 set :deploy_to, '/var/www/apps/blog_pjdotcom'
+set :rbenv_ruby, '2.2.3'
 set :scm, :git
 set :format, :pretty
 set :log_level, :debug
