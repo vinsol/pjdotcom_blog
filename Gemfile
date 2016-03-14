@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'railsless-deploy'
-gem 'capistrano'
-gem 'capistrano-ext'
+gem 'capistrano', '~> 3.4.0'
 gem 'capistrano-bundler'
+# gem 'capistrano-ext'
+# gem 'railsless-deploy'
